@@ -64,3 +64,10 @@ recommends it only while an app whose name contains one of those words (either
 way round, case aside) is being built or edited, under **Recommendations**;
 for any other app it is left out of the list unless it is searched for by name.
 Names are hints, not identities: nothing needs to be unique.
+
+## Items that live on one machine
+
+An item may carry `"local": "{data}/apps/mc"` instead of a `source`: it is listed but
+not hosted, and nothing is downloaded for it. `{data}` is the player's `jester_data`
+folder, which they can set under the cogwheel tab of the shell, so the same file works
+on any machine that has the item.
