@@ -7,7 +7,7 @@
       "name": "Minecraft",
       "detail": "The Minecraft app. Private for now: listed by its local install path, nothing to download.",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc",
+      "local": "{data}/apps/mc",
       "mods": [
         "aoughwl.ui",
         "aoughwl.handoff",
@@ -31,7 +31,7 @@
       "id": "aoughwl.coords",
       "name": "Coordinates",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.coords",
+      "local": "{data}/apps/mc/basemods/aoughwl.coords",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -48,7 +48,7 @@
       "id": "aoughwl.create",
       "name": "Create (client support)",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.create",
+      "local": "{data}/apps/mc/basemods/aoughwl.create",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -71,7 +71,7 @@
       "id": "aoughwl.fonttest",
       "name": "Minecraft Font Test",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fonttest",
+      "local": "{data}/apps/mc/basemods/aoughwl.fonttest",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -85,7 +85,7 @@
       "id": "aoughwl.fpscounter",
       "name": "FPS Counter",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fpscounter",
+      "local": "{data}/apps/mc/basemods/aoughwl.fpscounter",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -102,7 +102,7 @@
       "id": "aoughwl.hostdebug",
       "name": "Host Debug Lines",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hostdebug",
+      "local": "{data}/apps/mc/basemods/aoughwl.hostdebug",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -116,7 +116,7 @@
       "id": "aoughwl.hud",
       "name": "Survival HUD",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hud",
+      "local": "{data}/apps/mc/basemods/aoughwl.hud",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -149,7 +149,7 @@
       "id": "aoughwl.keystrokes",
       "name": "Keystrokes",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.keystrokes",
+      "local": "{data}/apps/mc/basemods/aoughwl.keystrokes",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -166,7 +166,7 @@
       "id": "aoughwl.mcambience",
       "name": "Minecraft Ambience",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcambience",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcambience",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -183,7 +183,7 @@
       "id": "aoughwl.mcdebug",
       "name": "Debug Screen",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcdebug",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcdebug",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -197,7 +197,7 @@
       "id": "aoughwl.mcjoin",
       "name": "Join a Minecraft Server",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcjoin",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcjoin",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -211,7 +211,7 @@
       "id": "aoughwl.mcnet",
       "name": "Minecraft Protocol",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcnet",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcnet",
       "recommendedFor": [
         "Minecraft"
       ]
@@ -220,7 +220,7 @@
       "id": "aoughwl.mcplus",
       "name": "Minecraft Plus",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcplus",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcplus",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -242,7 +242,7 @@
       "id": "aoughwl.mcserver",
       "name": "Host a Minecraft Server",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcserver",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcserver",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -256,7 +256,7 @@
       "id": "aoughwl.mcskin",
       "name": "Player Skins",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcskin",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcskin",
       "recommendedFor": [
         "Minecraft"
       ]
@@ -265,7 +265,7 @@
       "id": "aoughwl.mcui",
       "name": "Minecraft Interface",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcui",
+      "local": "{data}/apps/mc/basemods/aoughwl.mcui",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -283,7 +283,7 @@
       "id": "aoughwl.minecraft",
       "name": "Minecraft Import",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minecraft",
+      "local": "{data}/apps/mc/basemods/aoughwl.minecraft",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -303,7 +303,7 @@
       "id": "aoughwl.minimap",
       "name": "Minimap",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minimap",
+      "local": "{data}/apps/mc/basemods/aoughwl.minimap",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -324,7 +324,7 @@
       "id": "aoughwl.modded",
       "name": "Modded Content Registry",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.modded",
+      "local": "{data}/apps/mc/basemods/aoughwl.modded",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -338,7 +338,7 @@
       "id": "aoughwl.moddedgui",
       "name": "Modded Menu Screens",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.moddedgui",
+      "local": "{data}/apps/mc/basemods/aoughwl.moddedgui",
       "recommendedFor": [
         "Minecraft"
       ]
@@ -347,7 +347,7 @@
       "id": "aoughwl.mousetweaks",
       "name": "Mouse Tweaks",
       "version": "2.31.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mousetweaks",
+      "local": "{data}/apps/mc/basemods/aoughwl.mousetweaks",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -361,7 +361,7 @@
       "id": "aoughwl.nei",
       "name": "NEI",
       "version": "0.3.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.nei",
+      "local": "{data}/apps/mc/basemods/aoughwl.nei",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -378,7 +378,7 @@
       "id": "aoughwl.sky",
       "name": "Sky",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.sky",
+      "local": "{data}/apps/mc/basemods/aoughwl.sky",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -395,7 +395,7 @@
       "id": "aoughwl.verify",
       "name": "Verify: vanilla-derived self-tests",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.verify",
+      "local": "{data}/apps/mc/basemods/aoughwl.verify",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -412,7 +412,7 @@
       "id": "aoughwl.voxel",
       "name": "Voxel World",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.voxel",
+      "local": "{data}/apps/mc/basemods/aoughwl.voxel",
       "recommendedFor": [
         "Minecraft"
       ],
@@ -456,7 +456,7 @@
       "id": "aoughwl.worldedit",
       "name": "WorldEdit (client support)",
       "version": "0.1.0",
-      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.worldedit",
+      "local": "{data}/apps/mc/basemods/aoughwl.worldedit",
       "recommendedFor": [
         "Minecraft"
       ],
