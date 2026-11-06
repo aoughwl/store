@@ -1,473 +1,473 @@
 {
-    "format":  1,
-    "name":  "Aoughwl",
-    "apps":  [
-                 {
-                     "id":  "minecraft",
-                     "name":  "Minecraft",
-                     "detail":  "The Minecraft app. Private for now: listed by its local install path, nothing to download.",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc",
-                     "mods":  [
-                                  "aoughwl.ui",
-                                  "aoughwl.handoff",
-                                  "aoughwl.inventory",
-                                  "aoughwl.grid",
-                                  "aoughwl.character",
-                                  "aoughwl.parts",
-                                  "aoughwl.importing",
-                                  "aoughwl.minecraft",
-                                  "aoughwl.voxel",
-                                  "aoughwl.hud",
-                                  "aoughwl.mcui",
-                                  "aoughwl.sky",
-                                  "aoughwl.mcdebug",
-                                  "aoughwl.hostdebug"
-                              ]
-                 }
-             ],
-    "mods":  [
-                 {
-                     "id":  "aoughwl.coords",
-                     "name":  "Coordinates",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.coords",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.create",
-                     "name":  "Create (client support)",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.create",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.modded"
-                                          },
-                                          {
-                                              "id":  "aoughwl.moddedgui"
-                                          },
-                                          {
-                                              "id":  "aoughwl.kinetic"
-                                          },
-                                          {
-                                              "id":  "aoughwl.importing"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.fonttest",
-                     "name":  "Minecraft Font Test",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fonttest",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.minecraft"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.fpscounter",
-                     "name":  "FPS Counter",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fpscounter",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.hostdebug",
-                     "name":  "Host Debug Lines",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hostdebug",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.mcdebug"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.hud",
-                     "name":  "Survival HUD",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hud",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.inventory",
-                                              "version":  "^0.1.0"
-                                          },
-                                          {
-                                              "id":  "aoughwl.grid",
-                                              "version":  "^0.1.0"
-                                          },
-                                          {
-                                              "id":  "aoughwl.ui",
-                                              "version":  "^0.1.0"
-                                          },
-                                          {
-                                              "id":  "aoughwl.character",
-                                              "version":  "^0.1.0"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.keystrokes",
-                     "name":  "Keystrokes",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.keystrokes",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcambience",
-                     "name":  "Minecraft Ambience",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcambience",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.sound"
-                                          },
-                                          {
-                                              "id":  "aoughwl.minecraft"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcdebug",
-                     "name":  "Debug Screen",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcdebug",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcjoin",
-                     "name":  "Join a Minecraft Server",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcjoin",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcnet",
-                     "name":  "Minecraft Protocol",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcnet",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ]
-                 },
-                 {
-                     "id":  "aoughwl.mcplus",
-                     "name":  "Minecraft Plus",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcplus",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.voxel",
-                                              "optional":  true
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui",
-                                              "optional":  true
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcserver",
-                     "name":  "Host a Minecraft Server",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcserver",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.mcskin",
-                     "name":  "Player Skins",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcskin",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ]
-                 },
-                 {
-                     "id":  "aoughwl.mcui",
-                     "name":  "Minecraft Interface",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcui",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.moddedgui",
-                                              "optional":  true
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.minecraft",
-                     "name":  "Minecraft Import",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minecraft",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.parts"
-                                          },
-                                          {
-                                              "id":  "aoughwl.importing"
-                                          },
-                                          {
-                                              "id":  "aoughwl.character"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.minimap",
-                     "name":  "Minimap",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minimap",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          },
-                                          {
-                                              "id":  "aoughwl.voxel",
-                                              "optional":  true
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.modded",
-                     "name":  "Modded Content Registry",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.modded",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.moddedgui",
-                     "name":  "Modded Menu Screens",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.moddedgui",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ]
-                 },
-                 {
-                     "id":  "aoughwl.mousetweaks",
-                     "name":  "Mouse Tweaks",
-                     "version":  "2.31.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mousetweaks",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.nei",
-                     "name":  "NEI",
-                     "version":  "0.3.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.nei",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcui"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.sky",
-                     "name":  "Sky",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.sky",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.minecraft"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.verify",
-                     "name":  "Verify: vanilla-derived self-tests",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.verify",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.mcnet"
-                                          },
-                                          {
-                                              "id":  "aoughwl.hud"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.voxel",
-                     "name":  "Voxel World",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.voxel",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.handoff"
-                                          },
-                                          {
-                                              "id":  "aoughwl.parts"
-                                          },
-                                          {
-                                              "id":  "aoughwl.character"
-                                          },
-                                          {
-                                              "id":  "aoughwl.inventory"
-                                          },
-                                          {
-                                              "id":  "aoughwl.grid"
-                                          },
-                                          {
-                                              "id":  "aoughwl.mcnet"
-                                          },
-                                          {
-                                              "id":  "aoughwl.hud",
-                                              "optional":  true
-                                          },
-                                          {
-                                              "id":  "aoughwl.kinetic",
-                                              "optional":  true
-                                          },
-                                          {
-                                              "id":  "aoughwl.modded",
-                                              "optional":  true
-                                          },
-                                          {
-                                              "id":  "aoughwl.sound"
-                                          }
-                                      ]
-                 },
-                 {
-                     "id":  "aoughwl.worldedit",
-                     "name":  "WorldEdit (client support)",
-                     "version":  "0.1.0",
-                     "local":  "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.worldedit",
-                     "recommendedFor":  [
-                                            "Minecraft"
-                                        ],
-                     "dependencies":  [
-                                          {
-                                              "id":  "aoughwl.modded"
-                                          },
-                                          {
-                                              "id":  "aoughwl.parts"
-                                          }
-                                      ]
-                 }
-             ]
+  "format": 1,
+  "name": "aoughwl",
+  "apps": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "detail": "The Minecraft app. Private for now: listed by its local install path, nothing to download.",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc",
+      "mods": [
+        "aoughwl.ui",
+        "aoughwl.handoff",
+        "aoughwl.inventory",
+        "aoughwl.grid",
+        "aoughwl.character",
+        "aoughwl.parts",
+        "aoughwl.importing",
+        "aoughwl.minecraft",
+        "aoughwl.voxel",
+        "aoughwl.hud",
+        "aoughwl.mcui",
+        "aoughwl.sky",
+        "aoughwl.mcdebug",
+        "aoughwl.hostdebug"
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "id": "aoughwl.coords",
+      "name": "Coordinates",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.coords",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.create",
+      "name": "Create (client support)",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.create",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.modded"
+        },
+        {
+          "id": "aoughwl.moddedgui"
+        },
+        {
+          "id": "aoughwl.kinetic"
+        },
+        {
+          "id": "aoughwl.importing"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.fonttest",
+      "name": "Minecraft Font Test",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fonttest",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.minecraft"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.fpscounter",
+      "name": "FPS Counter",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.fpscounter",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.hostdebug",
+      "name": "Host Debug Lines",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hostdebug",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.mcdebug"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.hud",
+      "name": "Survival HUD",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.hud",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.inventory",
+          "version": "^0.1.0"
+        },
+        {
+          "id": "aoughwl.grid",
+          "version": "^0.1.0"
+        },
+        {
+          "id": "aoughwl.ui",
+          "version": "^0.1.0"
+        },
+        {
+          "id": "aoughwl.character",
+          "version": "^0.1.0"
+        },
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.keystrokes",
+      "name": "Keystrokes",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.keystrokes",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcambience",
+      "name": "Minecraft Ambience",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcambience",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.sound"
+        },
+        {
+          "id": "aoughwl.minecraft"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcdebug",
+      "name": "Debug Screen",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcdebug",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcjoin",
+      "name": "Join a Minecraft Server",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcjoin",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcnet",
+      "name": "Minecraft Protocol",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcnet",
+      "recommendedFor": [
+        "Minecraft"
+      ]
+    },
+    {
+      "id": "aoughwl.mcplus",
+      "name": "Minecraft Plus",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcplus",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.voxel",
+          "optional": true
+        },
+        {
+          "id": "aoughwl.mcui",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcserver",
+      "name": "Host a Minecraft Server",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcserver",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.mcskin",
+      "name": "Player Skins",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcskin",
+      "recommendedFor": [
+        "Minecraft"
+      ]
+    },
+    {
+      "id": "aoughwl.mcui",
+      "name": "Minecraft Interface",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mcui",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.moddedgui",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.minecraft",
+      "name": "Minecraft Import",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minecraft",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.parts"
+        },
+        {
+          "id": "aoughwl.importing"
+        },
+        {
+          "id": "aoughwl.character"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.minimap",
+      "name": "Minimap",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.minimap",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.mcui"
+        },
+        {
+          "id": "aoughwl.voxel",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.modded",
+      "name": "Modded Content Registry",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.modded",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.moddedgui",
+      "name": "Modded Menu Screens",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.moddedgui",
+      "recommendedFor": [
+        "Minecraft"
+      ]
+    },
+    {
+      "id": "aoughwl.mousetweaks",
+      "name": "Mouse Tweaks",
+      "version": "2.31.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.mousetweaks",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.nei",
+      "name": "NEI",
+      "version": "0.3.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.nei",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.mcui"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.sky",
+      "name": "Sky",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.sky",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.minecraft"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.verify",
+      "name": "Verify: vanilla-derived self-tests",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.verify",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.mcnet"
+        },
+        {
+          "id": "aoughwl.hud"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.voxel",
+      "name": "Voxel World",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.voxel",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.handoff"
+        },
+        {
+          "id": "aoughwl.parts"
+        },
+        {
+          "id": "aoughwl.character"
+        },
+        {
+          "id": "aoughwl.inventory"
+        },
+        {
+          "id": "aoughwl.grid"
+        },
+        {
+          "id": "aoughwl.mcnet"
+        },
+        {
+          "id": "aoughwl.hud",
+          "optional": true
+        },
+        {
+          "id": "aoughwl.kinetic",
+          "optional": true
+        },
+        {
+          "id": "aoughwl.modded",
+          "optional": true
+        },
+        {
+          "id": "aoughwl.sound"
+        }
+      ]
+    },
+    {
+      "id": "aoughwl.worldedit",
+      "name": "WorldEdit (client support)",
+      "version": "0.1.0",
+      "local": "C:\\Users\\timbuktu\\Desktop\\jester_data\\apps\\mc\\basemods\\aoughwl.worldedit",
+      "recommendedFor": [
+        "Minecraft"
+      ],
+      "dependencies": [
+        {
+          "id": "aoughwl.modded"
+        },
+        {
+          "id": "aoughwl.parts"
+        }
+      ]
+    }
+  ]
 }
