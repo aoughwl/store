@@ -7,6 +7,7 @@
       "name": "Minecraft",
       "detail": "The Minecraft app. Private for now: listed by its local install path, nothing to download.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc",
       "mods": [
@@ -24,7 +25,8 @@
         "aoughwl.sky",
         "aoughwl.mcdebug",
         "aoughwl.hostdebug"
-      ]
+      ],
+      "body": "# Minecraft\n\nThe Minecraft app. Private for now: listed by its local install path, nothing to download.\n\n## Made of\n\n- `aoughwl.ui`\n- `aoughwl.handoff`\n- `aoughwl.inventory`\n- `aoughwl.grid`\n- `aoughwl.character`\n- `aoughwl.parts`\n- `aoughwl.importing`\n- `aoughwl.minecraft`\n- `aoughwl.voxel`\n- `aoughwl.hud`\n- `aoughwl.mcui`\n- `aoughwl.sky`\n- `aoughwl.mcdebug`\n- `aoughwl.hostdebug`\n"
     }
   ],
   "mods": [
@@ -33,6 +35,7 @@
       "name": "Coordinates",
       "detail": "A coordinates corner for the screen: where you stand, the block and chunk you are in, which way you face, the biome and the dimension. Each line can be turned on or off.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.coords",
       "recommendedFor": [
@@ -45,13 +48,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# Coordinates\n\nA coordinates corner for the screen: where you stand, the block and chunk you are in, which way you face, the biome and the dimension. Each line can be turned on or off.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.create",
       "name": "Create (client support)",
       "detail": "What the Jester client needs to join a server that runs Create (the Fabric port \"Create Fly\", Minecraft 1.21.11). Supplies the mod's blocks, items and menus as modded content.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.create",
       "recommendedFor": [
@@ -70,13 +75,15 @@
         {
           "id": "aoughwl.importing"
         }
-      ]
+      ],
+      "body": "# Create (client support)\n\nWhat the Jester client needs to join a server that runs Create (the Fabric port \"Create Fly\", Minecraft 1.21.11). Supplies the mod's blocks, items and menus as modded content.\n\n## Needs\n\n- `aoughwl.modded`\n- `aoughwl.moddedgui`\n- `aoughwl.kinetic`\n- `aoughwl.importing`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.fonttest",
       "name": "Minecraft Font Test",
       "detail": "A plain dark screen that shows Minecraft's own font, read from your copy of the game, so you can judge how it looks.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.fonttest",
       "recommendedFor": [
@@ -86,13 +93,15 @@
         {
           "id": "aoughwl.minecraft"
         }
-      ]
+      ],
+      "body": "# Minecraft Font Test\n\nA plain dark screen that shows Minecraft's own font, read from your copy of the game, so you can judge how it looks.\n\n## Needs\n\n- `aoughwl.minecraft`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.fpscounter",
       "name": "FPS Counter",
       "detail": "The frame rate in a corner of the screen, with the frame time and the worst frame of the last few seconds, taken from the engine's own numbers.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.fpscounter",
       "recommendedFor": [
@@ -105,13 +114,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# FPS Counter\n\nThe frame rate in a corner of the screen, with the frame time and the worst frame of the last few seconds, taken from the engine's own numbers.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.hostdebug",
       "name": "Host Debug Lines",
       "detail": "The machine-level lines of the F3 screen: where the eye is, the window size, the frame rate and which build this is. Published for whatever debug screen is loaded.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.hostdebug",
       "recommendedFor": [
@@ -121,13 +132,15 @@
         {
           "id": "aoughwl.mcdebug"
         }
-      ]
+      ],
+      "body": "# Host Debug Lines\n\nThe machine-level lines of the F3 screen: where the eye is, the window size, the frame rate and which build this is. Published for whatever debug screen is loaded.\n\n## Needs\n\n- `aoughwl.mcdebug`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.hud",
       "name": "Survival HUD",
       "detail": "A Minecraft-shaped player: a hotbar, hearts, hunger, armour, a level and an inventory screen, with the survival state that gives them meaning.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.hud",
       "recommendedFor": [
@@ -156,13 +169,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# Survival HUD\n\nA Minecraft-shaped player: a hotbar, hearts, hunger, armour, a level and an inventory screen, with the survival state that gives them meaning.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.inventory`\n- `aoughwl.grid`\n- `aoughwl.ui`\n- `aoughwl.character`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.keystrokes",
       "name": "Keystrokes",
       "detail": "Your movement keys, the jump bar and the mouse buttons drawn in a corner of the screen, lit while pressed, with clicks per second under each mouse button.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.keystrokes",
       "recommendedFor": [
@@ -175,13 +190,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# Keystrokes\n\nYour movement keys, the jump bar and the mouse buttons drawn in a corner of the screen, lit while pressed, with clicks per second under each mouse button.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcambience",
       "name": "Minecraft Ambience",
       "detail": "Every sound the Minecraft client chooses to play on its own: cave noises, biome ambience, weather and music, in addition to the sounds a server sends.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcambience",
       "recommendedFor": [
@@ -194,13 +211,15 @@
         {
           "id": "aoughwl.minecraft"
         }
-      ]
+      ],
+      "body": "# Minecraft Ambience\n\nEvery sound the Minecraft client chooses to play on its own: cave noises, biome ambience, weather and music, in addition to the sounds a server sends.\n\n## Needs\n\n- `aoughwl.sound`\n- `aoughwl.minecraft`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcdebug",
       "name": "Debug Screen",
       "detail": "The F3 debug screen, where every line is data. Other mods add their own lines instead of editing the game.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcdebug",
       "recommendedFor": [
@@ -210,13 +229,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# Debug Screen\n\nThe F3 debug screen, where every line is data. Other mods add their own lines instead of editing the game.\n\n## Needs\n\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcjoin",
       "name": "Join a Minecraft Server",
       "detail": "Reads a server address from server.txt and joins it, so a modpack can say which Minecraft server it is for.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcjoin",
       "recommendedFor": [
@@ -226,24 +247,28 @@
         {
           "id": "aoughwl.handoff"
         }
-      ]
+      ],
+      "body": "# Join a Minecraft Server\n\nReads a server address from server.txt and joins it, so a modpack can say which Minecraft server it is for.\n\n## Needs\n\n- `aoughwl.handoff`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcnet",
       "name": "Minecraft Protocol",
       "detail": "The Minecraft network protocol as pure arithmetic: framing, packets and chunks, proved without a server or a socket.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcnet",
       "recommendedFor": [
         "Minecraft"
-      ]
+      ],
+      "body": "# Minecraft Protocol\n\nThe Minecraft network protocol as pure arithmetic: framing, packets and chunks, proved without a server or a socket.\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcplus",
       "name": "Minecraft Plus",
       "detail": "The usual client-side quality-of-life mods in one: tooltips for what you look at, a hunger preview, a zoom key, waypoints, a frame-rate limiter and more.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcplus",
       "recommendedFor": [
@@ -261,13 +286,15 @@
           "id": "aoughwl.mcui",
           "optional": true
         }
-      ]
+      ],
+      "body": "# Minecraft Plus\n\nThe usual client-side quality-of-life mods in one: tooltips for what you look at, a hunger preview, a zoom key, waypoints, a frame-rate limiter and more.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.voxel`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcserver",
       "name": "Host a Minecraft Server",
       "detail": "Single-player as a real Minecraft server running on your own machine, so the world behaves exactly as it does in the real game.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcserver",
       "recommendedFor": [
@@ -277,24 +304,28 @@
         {
           "id": "aoughwl.handoff"
         }
-      ]
+      ],
+      "body": "# Host a Minecraft Server\n\nSingle-player as a real Minecraft server running on your own machine, so the world behaves exactly as it does in the real game.\n\n## Needs\n\n- `aoughwl.handoff`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcskin",
       "name": "Player Skins",
       "detail": "Shows other players' skins and capes. Fetches them from textures.minecraft.net over HTTPS, and nothing else is sent anywhere.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcskin",
       "recommendedFor": [
         "Minecraft"
-      ]
+      ],
+      "body": "# Player Skins\n\nShows other players' skins and capes. Fetches them from textures.minecraft.net over HTTPS, and nothing else is sent anywhere.\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mcui",
       "name": "Minecraft Interface",
       "detail": "Minecraft's menus drawn out of your own copy of the game: the main menu with its tiled background, logo and splash, and the in-game screens.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mcui",
       "recommendedFor": [
@@ -308,13 +339,15 @@
           "id": "aoughwl.moddedgui",
           "optional": true
         }
-      ]
+      ],
+      "body": "# Minecraft Interface\n\nMinecraft's menus drawn out of your own copy of the game: the main menu with its tiled background, logo and splash, and the in-game screens.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.moddedgui`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.minecraft",
       "name": "Minecraft Import",
       "detail": "Imports Minecraft from the copy you already own. Nothing of Mojang's ships with Jester; the textures, sounds, language files and data are read from your game jar.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.minecraft",
       "recommendedFor": [
@@ -330,13 +363,15 @@
         {
           "id": "aoughwl.character"
         }
-      ]
+      ],
+      "body": "# Minecraft Import\n\nImports Minecraft from the copy you already own. Nothing of Mojang's ships with Jester; the textures, sounds, language files and data are read from your game jar.\n\n## Needs\n\n- `aoughwl.parts`\n- `aoughwl.importing`\n- `aoughwl.character`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.minimap",
       "name": "Minimap",
       "detail": "A map of the ground around you in a corner of the screen, with waypoints, a death point, an entity radar and the usual info lines.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.minimap",
       "recommendedFor": [
@@ -353,13 +388,15 @@
           "id": "aoughwl.voxel",
           "optional": true
         }
-      ]
+      ],
+      "body": "# Minimap\n\nA map of the ground around you in a corner of the screen, with waypoints, a death point, an entity radar and the usual info lines.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.mcui`\n- `aoughwl.voxel`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.modded",
       "name": "Modded Content Registry",
       "detail": "Shared tables for content a Minecraft server mod adds. A library: providers fill it in and the world renderer reads it.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.modded",
       "recommendedFor": [
@@ -369,24 +406,28 @@
         {
           "id": "aoughwl.handoff"
         }
-      ]
+      ],
+      "body": "# Modded Content Registry\n\nShared tables for content a Minecraft server mod adds. A library: providers fill it in and the world renderer reads it.\n\n## Needs\n\n- `aoughwl.handoff`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.moddedgui",
       "name": "Modded Menu Screens",
       "detail": "A library for the menus a server mod adds: the layout grammar and the catalogs a provider fills in so a screen can be drawn.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.moddedgui",
       "recommendedFor": [
         "Minecraft"
-      ]
+      ],
+      "body": "# Modded Menu Screens\n\nA library for the menus a server mod adds: the layout grammar and the catalogs a provider fills in so a screen can be drawn.\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.mousetweaks",
       "name": "Mouse Tweaks",
       "detail": "Mouse Tweaks (YaLTeR) for container screens: drag to spread a stack, shift-click to move matching items, scroll to transfer, and the rest of the original.",
       "image": "",
+      "icon": "",
       "version": "2.31.0",
       "local": "{data}/apps/mc/basemods/aoughwl.mousetweaks",
       "recommendedFor": [
@@ -396,13 +437,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# Mouse Tweaks\n\nMouse Tweaks (YaLTeR) for container screens: drag to spread a stack, shift-click to move matching items, scroll to transfer, and the rest of the original.\n\n## Needs\n\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.nei",
       "name": "NEI",
       "detail": "NotEnoughItems as ChickenBones drew it, beside the inventory screens: the item panel, search, recipes and cheat mode.",
       "image": "",
+      "icon": "",
       "version": "0.3.0",
       "local": "{data}/apps/mc/basemods/aoughwl.nei",
       "recommendedFor": [
@@ -415,13 +458,15 @@
         {
           "id": "aoughwl.mcui"
         }
-      ]
+      ],
+      "body": "# NEI\n\nNotEnoughItems as ChickenBones drew it, beside the inventory screens: the item panel, search, recipes and cheat mode.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.mcui`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.sky",
       "name": "Sky",
       "detail": "The Minecraft sky: the sun, moon and stars, the clouds and the colour of the day, driven by the world clock.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.sky",
       "recommendedFor": [
@@ -434,13 +479,15 @@
         {
           "id": "aoughwl.minecraft"
         }
-      ]
+      ],
+      "body": "# Sky\n\nThe Minecraft sky: the sun, moon and stars, the clouds and the colour of the day, driven by the world clock.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.minecraft`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.verify",
       "name": "Verify: vanilla-derived self-tests",
       "detail": "Self-tests that run the real protocol decoders over data a vanilla Minecraft server produced, and report whether they agree.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.verify",
       "recommendedFor": [
@@ -453,13 +500,15 @@
         {
           "id": "aoughwl.hud"
         }
-      ]
+      ],
+      "body": "# Verify: vanilla-derived self-tests\n\nSelf-tests that run the real protocol decoders over data a vanilla Minecraft server produced, and report whether they agree.\n\n## Needs\n\n- `aoughwl.mcnet`\n- `aoughwl.hud`\n\n## Made for\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.voxel",
       "name": "Voxel World",
       "detail": "A world made of blocks that you can dig into and build back up. The host side of the voxel engine: drawing, the crosshair and joining a server.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.voxel",
       "recommendedFor": [
@@ -499,13 +548,15 @@
         {
           "id": "aoughwl.sound"
         }
-      ]
+      ],
+      "body": "# Voxel World\n\nA world made of blocks that you can dig into and build back up. The host side of the voxel engine: drawing, the crosshair and joining a server.\n\n## Needs\n\n- `aoughwl.handoff`\n- `aoughwl.parts`\n- `aoughwl.character`\n- `aoughwl.inventory`\n- `aoughwl.grid`\n- `aoughwl.mcnet`\n- `aoughwl.hud`\n- `aoughwl.kinetic`\n- `aoughwl.modded`\n- `aoughwl.sound`\n\n## Made for\n\n- Minecraft\n\n## Part of\n\n- Minecraft\n"
     },
     {
       "id": "aoughwl.worldedit",
       "name": "WorldEdit (client support)",
       "detail": "The client half of WorldEdit: draws your selection (WorldEditCUI) while the server does the editing.",
       "image": "",
+      "icon": "",
       "version": "0.1.0",
       "local": "{data}/apps/mc/basemods/aoughwl.worldedit",
       "recommendedFor": [
@@ -518,7 +569,8 @@
         {
           "id": "aoughwl.parts"
         }
-      ]
+      ],
+      "body": "# WorldEdit (client support)\n\nThe client half of WorldEdit: draws your selection (WorldEditCUI) while the server does the editing.\n\n## Needs\n\n- `aoughwl.modded`\n- `aoughwl.parts`\n\n## Made for\n\n- Minecraft\n"
     }
   ]
 }
