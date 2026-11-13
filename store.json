@@ -27,6 +27,18 @@
         "aoughwl.hostdebug"
       ],
       "body": "# Minecraft\n\nThe Minecraft app. Private for now: listed by its local install path, nothing to download.\n\n## Made of\n\n- `aoughwl.ui`\n- `aoughwl.handoff`\n- `aoughwl.inventory`\n- `aoughwl.grid`\n- `aoughwl.character`\n- `aoughwl.parts`\n- `aoughwl.importing`\n- `aoughwl.minecraft`\n- `aoughwl.voxel`\n- `aoughwl.hud`\n- `aoughwl.mcui`\n- `aoughwl.sky`\n- `aoughwl.mcdebug`\n- `aoughwl.hostdebug`\n"
+    },
+    {
+      "id": "titicaca",
+      "name": "Titicaca",
+      "detail": "The Titicaca web browser. Private for now: listed by its local install path, nothing to download.",
+      "image": "",
+      "icon": "",
+      "version": "0.1.0",
+      "local": "{data}/apps/titicaca",
+      "featured": true,
+      "mods": [],
+      "body": "# Titicaca\n\nThe Titicaca web browser, built on the Engine and the aoughwl web mods. Private for now: listed by its local install path, nothing to download.\n"
     }
   ],
   "mods": [

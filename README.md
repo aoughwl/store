@@ -57,6 +57,13 @@ what is installed, and refuses (with the reason) rather than half-installing.
 
 The repository must be **public** for the shell to read it without credentials.
 
+## Featured entries
+
+Any app or mod entry may carry `"featured": true`. The shell then marks it in
+the Store with a gold star and a faint gold highlight (in the list and the grid).
+Leave the field out, or set it to `false`, for an ordinary entry; a store with
+no featured entries looks exactly as before.
+
 ## Mods made for particular apps
 
 A mod entry may carry `"recommendedFor": ["Minecraft"]`. The shell then
